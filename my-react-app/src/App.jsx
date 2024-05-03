@@ -7,6 +7,8 @@ import MultipleReturnsFetchData from "./useEffect/MultipleReturnsFetchData";
 import ToggleChallenge from "./useState/ToggleChallenge";
 import UserChallenge from "./useState/UserChallenge";
 import ControlledInput from "./useState/ControlledInput";
+import ReducerBasics from "./useRuducer/ReducerBasics";
+import LowerState from "./Performance/Usecallback/LowerState";
 
 function App() {
   return (
@@ -26,9 +28,16 @@ function App() {
       <section>
         <UserChallenge />
       </section>
-      <section>
+      <section style={{ marginTop: "100px" }}>
         <ControlledInput />
       </section>
+      <section style={{ marginTop: "100px" }}>
+        <ReducerBasics />
+      </section>
+      <section style={{ marginTop: "100px" }}>
+        <LowerState />
+      </section>
+      
     </>
   );
 }
